@@ -10,21 +10,44 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="menu">
-                <i class="fa-solid fa-bars" onclick="burguer()"></i>
-            </div>
-            <div class="text-menu">
+        <div class="menu-secret-header">
+            <div class="text-head">
                 <h1><span>LOJAS MEU GAME</span> <i class="fa-brands fa-xbox"></i></h1>
             </div>
-            <div class="cart">
-                <i class="fa-solid fa-cart-shopping"></i>
+            <div class="barra">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <label for="ibar"></label>
+                <input type="search" name="bar" id="ibar" placeholder="Faça sua pesquisa aqui_">
             </div>
-        </nav>
-        <div class="search-bar">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <label for="ibar"></label>
-            <input type="search" name="bar" id="ibar" placeholder="Faça sua pesquisa aqui_">
+            <div class="icons">
+                <div class="atention">
+                    <p><i class="fa-regular fa-comment-dots"></i>Atendimento</p>
+                </div>
+                <div class="login">
+                    <p><i class="fa-regular fa-user"></i>Minha conta</p>
+                </div>
+                <div class="cart-head-secret">
+                    <i class="fa-solid fa-cart-shopping secret-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="container-header-mobile">
+            <nav>
+                <div class="menu">
+                    <i class="fa-solid fa-bars" onclick="burguer()"></i>
+                </div>
+                <div class="text-menu">
+                    <h1><span>LOJAS MEU GAME</span> <i class="fa-brands fa-xbox"></i></h1>
+                </div>
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </nav>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <label for="ibar"></label>
+                <input type="search" name="bar" id="ibar" placeholder="Faça sua pesquisa aqui_">
+            </div>
         </div>
     </header>
     <div class="menu-hambuguer" id="hamburguer" style="display: none;">
@@ -55,183 +78,261 @@
         </ul>
     </div>
     <main>
-        <section class="first-step-section">
-            <div class="pages">
-                <ul>
-                    <li>Página inicial <i class="fa-solid fa-angle-right"></i></li>
-                    <li>XBOX GIFT CARD</li>
-                </ul>
-            </div>
-            <div class="pages-down">
-                <h1>GIFT CARDS XBOX</h1>
-            </div>
-            <div class="prev">
-                <div class="container-prev" onclick="showitens()">
-                    <p>Escolher itens</p>
-                    <i class="fa-solid fa-chevron-down"></i>
+        <div class="menu-pos-header">
+            <ul>
+                <div class="top-pos">
+                    <li>PLAYSTATION</li>
                 </div>
-            </div>
-            <div class="menu-container">
-                <div class="menu-secret-itens" id="secret" style="display: none;">
-                    <p id="p1"><i class="fa-solid fa-a"></i>Ordem alfabetica</p>
-                    <p id="p2"><i class="fa-solid fa-dollar-sign"></i>Mais vendidos</p>
-                    <p id="p3"><i class="fa-solid fa-dollar-sign"></i>Menor preço</p>
-                    <p id="p4"><i class="fa-solid fa-dollar-sign"></i>Maior preço</p>
-                    <p id="p5"><i class="fa-solid fa-tag"></i>Maior desconto</p>
+                <div class="top-pos">
+                    <li>XBOX</li>
                 </div>
-            </div>
+                <div class="top-pos">
+                    <li>APP STORE</li>
+                </div>
+                <div class="top-pos">
+                    <li>GOOGLE PLAY</li>
+                </div>
+                <div class="top-pos">
+                    <li>NINTENDO</li>
+                </div>
+                <div class="top-pos">
+                    <li>COMPUTADOR</li>
+                </div>
+                <div class="top-pos">
+                    <li>CELULAR</li>
+                </div>
+                <div class="top-pos">
+                    <li>OUTROS</li>
+                </div>
+            </ul>
+        </div>
+        <section class="pages">
+            <ul>
+                <li>Página inicial <i class="fa-solid fa-angle-right"></i></li>
+                <li>XBOX GIFT CARD</li>
+            </ul>
         </section>
-        <section class="products">
-            <div class="product" id="1">
-                <div class="container-product-image">
-                    <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+        <section class="division" style="display: flex;">
+            <div class="separacion">
+                <div class="menu-lateral" id="lateral">
+                    <ul>
+                        <div class="top-l top-back-variation" id="top-back">
+                            <li style="background-color: rgb(7, 148, 7);">XBOX LIVE</li>
+                        </div>
+                        <div class="top-l">
+                            <li>PLAYSTATION</li>
+                        </div>
+                        <div class="top-l">
+                            <li>XBOX</li>
+                        </div>
+                        <div class="top-l">
+                            <li>APP STORE</li>
+                        </div>
+                        <div class="top-l">
+                            <li>GOOGLE PLAY</li>
+                        </div>
+                        <div class="top-l">
+                            <li>NINTENDO</li>
+                        </div>
+                    </ul>
                 </div>
-                <div class="container-prices">
-                    <p id="price-01">R$200 Código do xbox live</p>
-                    <p id="price-02">R$ 200,00</p>
-                    <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
-                </div>
-            </div>
-            <div class="product" id="1">
-                <div class="container-product-image">
-                    <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
-                </div>
-                <div class="container-prices">
-                    <p id="price-01">R$200 Código do xbox live</p>
-                    <p id="price-02">R$ 200,00</p>
-                    <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
-                </div>
-            </div>
-            <div class="product" id="1">
-                <div class="container-product-image">
-                    <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
-                </div>
-                <div class="container-prices">
-                    <p id="price-01">R$200 Código do xbox live</p>
-                    <p id="price-02">R$ 200,00</p>
-                    <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
-                </div>
-            </div>
-            <div class="product" id="1">
-                <div class="container-product-image">
-                    <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
-                </div>
-                <div class="container-prices">
-                    <p id="price-01">R$200 Código do xbox live</p>
-                    <p id="price-02">R$ 200,00</p>
-                    <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                <div class="filter">
+                    <h2>FILTRAR POR PREÇO</h2>
+                    <div class="prices">
+                        <p>de R$ 25,00 até R%49,99</p>
+                        <p>de R$ 45,00 até R%59,99</p>
+                        <p>de R$ 59,00 até R%100,99</p>
+                        <p>de R$ 100,00 até R%200,99</p>
+                        <p>de R$ 200,00 até R%400,99</p>
+                        <p>de R$ 200,00 até R%400,99</p>
+                        <p>de R$ 200,00 até R%400,99</p>
+                        <p>de R$ 200,00 até R%400,99</p>
+                        <p>de R$ 200,00 até R%400,99</p>
+                    </div>
                 </div>
             </div>
-            <div class="product" id="1">
-                <div class="container-product-image">
-                    <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+            <section class="first-step-section">
+                <div class="pages-down">
+                    <h1>GIFT CARDS XBOX</h1>
                 </div>
-                <div class="container-prices">
-                    <p id="price-01">R$200 Código do xbox live</p>
-                    <p id="price-02">R$ 200,00</p>
-                    <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                <div class="prev">
+                    <div class="container-prev" onclick="showitens()">
+                        <p>Escolher itens</p>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="product" id="1">
-                <div class="container-product-image">
-                    <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                <div class="menu-container">
+                    <div class="menu-secret-itens" id="secret" style="display: none;">
+                        <p id="p1"><i class="fa-solid fa-a"></i>Ordem alfabetica</p>
+                        <p id="p2"><i class="fa-solid fa-dollar-sign"></i>Mais vendidos</p>
+                        <p id="p3"><i class="fa-solid fa-dollar-sign"></i>Menor preço</p>
+                        <p id="p4"><i class="fa-solid fa-dollar-sign"></i>Maior preço</p>
+                        <p id="p5"><i class="fa-solid fa-tag"></i>Maior desconto</p>
+                    </div>
                 </div>
-                <div class="container-prices">
-                    <p id="price-01">R$200 Código do xbox live</p>
-                    <p id="price-02">R$ 200,00</p>
-                    <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                <div class="products">
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
+                    <div class="product" id="1">
+                        <div class="container-product-image">
+                            <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
+                        </div>
+                        <div class="container-prices">
+                            <p id="price-01">R$200 Código do xbox live</p>
+                            <p id="price-02">R$ 200,00</p>
+                            <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="product" id="1">
-                <div class="container-product-image">
-                    <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
-                </div>
-                <div class="container-prices">
-                    <p id="price-01">R$200 Código do xbox live</p>
-                    <p id="price-02">R$ 200,00</p>
-                    <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
-                </div>
-            </div>
-            <div class="product" id="1">
-                <div class="container-product-image">
-                    <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
-                </div>
-                <div class="container-prices">
-                    <p id="price-01">R$200 Código do xbox live</p>
-                    <p id="price-02">R$ 200,00</p>
-                    <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
-                </div>
-            </div>
-            <div class="product" id="1">
-                <div class="container-product-image">
-                    <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
-                </div>
-                <div class="container-prices">
-                    <p id="price-01">R$200 Código do xbox live</p>
-                    <p id="price-02">R$ 200,00</p>
-                    <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
-                </div>
-            </div>
-            <div class="product" id="1">
-                <div class="container-product-image">
-                    <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
-                </div>
-                <div class="container-prices">
-                    <p id="price-01">R$200 Código do xbox live</p>
-                    <p id="price-02">R$ 200,00</p>
-                    <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
-                </div>
-            </div>
-            <div class="product" id="1">
-                <div class="container-product-image">
-                    <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
-                </div>
-                <div class="container-prices">
-                    <p id="price-01">R$200 Código do xbox live</p>
-                    <p id="price-02">R$ 200,00</p>
-                    <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
-                </div>
-            </div>
-            <div class="product" id="1">
-                <div class="container-product-image">
-                    <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
-                </div>
-                <div class="container-prices">
-                    <p id="price-01">R$200 Código do xbox live</p>
-                    <p id="price-02">R$ 200,00</p>
-                    <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
-                </div>
-            </div>
-            <div class="product" id="1">
-                <div class="container-product-image">
-                    <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
-                </div>
-                <div class="container-prices">
-                    <p id="price-01">R$200 Código do xbox live</p>
-                    <p id="price-02">R$ 200,00</p>
-                    <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
-                </div>
-            </div>
-            <div class="product" id="1">
-                <div class="container-product-image">
-                    <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
-                </div>
-                <div class="container-prices">
-                    <p id="price-01">R$200 Código do xbox live</p>
-                    <p id="price-02">R$ 200,00</p>
-                    <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
-                </div>
-            </div>
-            <div class="product" id="1">
-                <div class="container-product-image">
-                    <img src="imagens/xbox-logo-png-2498.png" alt="product-image">
-                </div>
-                <div class="container-prices">
-                    <p id="price-01">R$200 Código do xbox live</p>
-                    <p id="price-02">R$ 200,00</p>
-                    <p id="credit">até 6x de R$ <br> 33,33 sem juros</p>
-                </div>
-            </div>
+            </section>
         </section>
         <section class="card-explain">
             <div class="title">

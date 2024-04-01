@@ -72,6 +72,7 @@ nav i{
     border: none;
     background: none;
     width: 100vw;
+    outline: none;
 }
 .search-bar input::placeholder{
     font-size: 17px;
@@ -203,7 +204,7 @@ main{
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
-    width: 150px;
+    width: 30vw;
     height: 350px;
     padding: 10px;
     background-color: var(--cor-04);
