@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOJAS-MEU-GAME</title>
+    <link rel="stylesheet" href="../style.css" media="all">
+    <link rel="stylesheet" href="../media-queries.css">
+    <link rel="shortcut icon" href="../imagens/controle-de-video-game.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="menu-secret-header">
+            <div class="text-head">
+                <h1><span>LOJAS MEU GAME</span> <i class="fa-brands fa-xbox"></i></h1>
+            </div>
+            <div class="barra">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <label for="ibar"></label>
+                <input type="search" name="bar" id="ibar" placeholder="Faça sua pesquisa aqui_">
+            </div>
+            <div class="icons">
+                <div class="atention">
+                    <p><i class="fa-regular fa-comment-dots"></i>Atendimento</p>
+                </div>
+                <div class="login">
+                    <p><i class="fa-regular fa-user"></i>Minha conta</p>
+                </div>
+                <div class="cart-head-secret">
+                    <i class="fa-solid fa-cart-shopping secret-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="container-header-mobile">
+            <nav>
+                <div class="menu">
+                    <i class="fa-solid fa-bars" onclick="burguer()"></i>
+                </div>
+                <div class="text-menu">
+                    <h1><span>LOJAS MEU GAME</span> <i class="fa-brands fa-xbox"></i></h1>
+                </div>
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </nav>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <label for="ibar"></label>
+                <input type="search" name="bar" id="ibar" placeholder="Faça sua pesquisa aqui_">
+            </div>
+        </div>
+    </header>
+    <div class="menu-hambuguer" id="hamburguer" style="display: none;">
+        <ul>
+            <div class="top" id="top-back">
+                <li style="background-color: rgb(9, 241, 9);">MINHA CONTA</li>
+            </div>
+            <div class="top">
+                <li>PLAYSTATION</li>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="top">
+                <li>XBOX</li>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="top">
+                <li>APP STORE</li>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="top">
+                <li>GOOGLE PLAY</li>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="top">
+                <li>NINTENDO</li>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </ul>
+    </div>
+    <main>
+        <div class="menu-pos-header">
+            <ul>
+                <div class="top-pos">
+                    <li>PLAYSTATION</li>
+                </div>
+                <div class="top-pos">
+                    <li>XBOX</li>
+                </div>
+                <div class="top-pos">
+                    <li>APP STORE</li>
+                </div>
+                <div class="top-pos">
+                    <li>GOOGLE PLAY</li>
+                </div>
+                <div class="top-pos">
+                    <li>NINTENDO</li>
+                </div>
+                <div class="top-pos">
+                    <li>COMPUTADOR</li>
+                </div>
+                <div class="top-pos">
+                    <li>CELULAR</li>
+                </div>
+                <div class="top-pos">
+                    <li>OUTROS</li>
+                </div>
+            </ul>
+        </div>
+        <section class="login-sec">
+            <form class="division-form" action="php.php" method="post">
+                <div class="menu-left">
+                    <h1>Já sou cadastrado</h1>
+                    <div class="mail">
+                        <label for="i-email">E-mail:</label>
+                        <input type="email" name="email" id="i-email">
+                    </div>
+                    <div class="pass">
+                        <label for="ipass">Senha:</label>
+                        <input type="password" name="password" id="ipass">
+                    </div>
+                    <div class="question">
+                        <p>Esqueceu a senha ou precisa criar?</p>
+                    </div>
+                    <div class="button-log">
+                        <input type="submit" value="Prosseguir">
+                    </div>
+                </div>
+                <div class="menu-right">
+                    <div class="text-top">
+                        <h1>Ainda não possuo cadastro</h1>
+                        <p>Primeiro acesso? <br> Faça aqui o seu cadastro</p>
+                    </div>
+                    <div class="mail">
+                        <label for="i-email-02">Digite o email que deseja cadastrar:</label>
+                        <input type="email" name="email" id="i-email-02">
+                    </div>
+                    <div class="button-cadastrar">
+                        <input type="submit" value="Cadastrar">
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section class="social">
+            <div class="text-menu" id="text-social">
+                <h1><span>LOJAS MEU GAME</span> <i class="fa-brands fa-xbox"></i></h1>
+            </div>
+            <div class="container-social-media">
+                <p><i class="fa-brands fa-facebook-f"></i>Facebook</p>
+                <p><i class="fa-brands fa-youtube"></i>Youtube</p>
+                <p><i class="fa-brands fa-instagram"></i>Instagram</p>
+            </div>
+        </section>
+        <section class="recepcion">
+            <div class="atent">
+                <p>Atendimento</p>
+            </div>
+            <div class="container-hours">
+                <p>Segunda á sexta: 09hs ás 22hs</p>
+                <p>Final de semana e Feriado: 10hs ás 21hs</p>
+                <p>Atendimento@meugiftcard.com.br</p>
+            </div>
+            <div class="container-information">
+                <p>*O prazo de envio é de até 1 hora dentro do nosso horário de atendimento. Compras em análise podem demorar até 2 dias.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="terms">
+            <p>Termos de uso e Política de privacidade</p>
+            <h1><span>LOJAS MEU GAME</span> <i class="fa-brands fa-xbox"></i></h1>
+        </div>
+        <div class="dev">
+            <p>Desenvolvido por Mike Morais</p>
+        </div>
+    </footer>
+    <script>
+        function showitens(){
+            if(secret.style.display == 'flex'){
+                secret.style.display = 'none'
+            }else{
+                secret.style.display = 'flex'
+            }
+        }
+        function burguer(){
+            if(hamburguer.style.display == 'block'){
+                hamburguer.style.display = 'none'
+            }else{
+                hamburguer.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

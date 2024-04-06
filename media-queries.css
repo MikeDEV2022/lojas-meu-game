@@ -201,6 +201,10 @@
         gap: 20px;
         cursor: pointer;
     }
+    .icons a{
+        text-decoration: none;
+        color: var(--cor-04);
+    }
     .icons p:hover{
         color: rgb(7, 148, 7);
         transition: .5s;
@@ -288,6 +292,14 @@
     .container-social-media p{
         font-size: 1.7vw;
     }
+    .categories{
+        display: flex;
+        flex-flow: column;
+        overflow-y: scroll;
+        font-size: 14px;
+        height: 200px;
+        gap: 5px;
+    }
 }
 @media screen and (min-width: 1200px){
     header{
@@ -363,6 +375,10 @@
         gap: 20px;
         cursor: pointer;
         margin-right: 50px;
+    }
+    .icons a{
+        text-decoration: none;
+        color: var(--cor-04);
     }
     .icons p:hover{
         color: rgb(7, 148, 7);
@@ -453,5 +469,13 @@
     }
     .container-social-media p{
         font-size: 1.6vw;
+    }
+    .categories{
+        display: flex;
+        flex-flow: column;
+        overflow-y: scroll;
+        font-size: 14px;
+        height: 200px;
+        gap: 5px;
     }
 }
