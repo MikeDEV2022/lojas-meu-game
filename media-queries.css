@@ -121,6 +121,14 @@
     .container-social-media p{
         font-size: 2vw;
     }
+    .categories{
+        display: flex;
+        flex-flow: column;
+        overflow-y: scroll;
+        font-size: 14px;
+        height: 200px;
+        gap: 5px;
+    }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px){
     header{
