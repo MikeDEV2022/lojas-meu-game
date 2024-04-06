@@ -25,6 +25,77 @@
     .filter{
         display: none;
     }
+    .division-form{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .menu-left{
+        padding-bottom: 40px;
+    }
+    .menu-left, .menu-right{
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+        width: 100%;
+    }
+    .top-info img, .text-top img{
+        width: 70px;
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+        box-shadow: 0px 0px 3px rgba(0, 146, 204, 0.534);
+    }
+    .text-top p{
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .menu-left h1, .menu-right h1{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .mail, .pass, .question, .button-log{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .mail input, .pass input, .button-log input{
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        width: 60%;
+    }
+    .menu-left p{
+        margin: 10px 0px;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .button-log{
+        display: block;
+        margin: auto;
+        width: 60%;
+        background-color: rgb(7, 148, 7);
+        border-radius: 8px;
+    }
+    .button-log input{
+        display: block;
+        margin: auto;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    #i-email-02{
+        margin: 5px 0px;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 768px){
     .menu-lateral{
@@ -38,6 +109,77 @@
     }
     .filter{
         display: none;
+    }
+    .division-form{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .menu-left{
+        padding-bottom: 40px;
+    }
+    .menu-left, .menu-right{
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+        width: 100%;
+    }
+    .top-info img, .text-top img{
+        width: 70px;
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+        box-shadow: 0px 0px 3px rgba(0, 146, 204, 0.534);
+    }
+    .text-top p{
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .menu-left h1, .menu-right h1{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .mail, .pass, .question, .button-log{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .mail input, .pass input, .button-log input{
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        width: 50%;
+    }
+    .menu-left p{
+        margin: 10px 0px;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .button-log{
+        display: block;
+        margin: auto;
+        width: 50%;
+        background-color: rgb(7, 148, 7);
+        border-radius: 8px;
+    }
+    .button-log input{
+        display: block;
+        margin: auto;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    #i-email-02{
+        margin: 5px 0px;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -129,6 +271,78 @@
         height: 200px;
         gap: 5px;
     }
+    .division-form{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .menu-left{
+        padding-bottom: 40px;
+    }
+    .menu-left, .menu-right{
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+        width: 100%;
+    }
+    .top-info img, .text-top img{
+        width: 70px;
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+        box-shadow: 0px 0px 3px rgba(0, 146, 204, 0.534);
+    }
+    .text-top p{
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .menu-left h1, .menu-right h1{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .mail, .pass, .question, .button-log{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .mail input, .pass input, .button-log input{
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        width: 50%;
+    }
+    .menu-left p{
+        margin: 10px 0px;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .button-log{
+        display: block;
+        margin: auto;
+        width: 50%;
+        background-color: rgb(7, 148, 7);
+        border-radius: 8px;
+    }
+    .button-log input{
+        display: block;
+        margin: auto;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    #i-email-02{
+        margin: 5px 0px;
+    }
+    
 }
 @media screen and (min-width: 992px) and (max-width: 1200px){
     header{
@@ -299,6 +513,77 @@
         font-size: 14px;
         height: 200px;
         gap: 5px;
+    }
+    .division-form{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 50vh;
+        padding: 0 50px;
+    }
+    .menu-left, .menu-right{
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+        width: 30%;
+    }
+    .top-info img, .text-top img{
+        width: 70px;
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+        box-shadow: 0px 0px 3px rgba(0, 146, 204, 0.534);
+        cursor: pointer;
+        transition: .5s;
+    }
+    .top-info img:hover, .text-top img:hover{
+        transform: translate(-5px, -5px);
+        transition: .5s;
+    }
+    .menu-left h1, .menu-right h1{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .mail, .pass, .question, .button-log{
+        display: flex;
+        flex-flow: column;
+    }
+    .mail input, .pass input, .button-log input{
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+    .menu-left p{
+        margin: 10px 0px;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .button-log{
+        display: block;
+        margin: auto;
+        width: 70%;
+        background-color: rgb(7, 148, 7);
+        border-radius: 8px;
+    }
+    .button-log input{
+        display: block;
+        margin: auto;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    #i-email-02{
+        margin: 5px 0px;
     }
 }
 @media screen and (min-width: 1200px){
@@ -477,5 +762,73 @@
         font-size: 14px;
         height: 200px;
         gap: 5px;
+    }
+    .division-form{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 50vh;
+        padding: 0px 50px;
+    }
+    .menu-left, .menu-right{
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+        width: 30%;
+    }
+    .top-info img, .text-top img{
+        width: 70px;
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+        box-shadow: 0px 0px 3px rgba(0, 146, 204, 0.534);
+    }
+    .menu-left h1, .menu-right h1{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .mail, .pass, .question, .button-log{
+        display: flex;
+        flex-flow: column;
+    }
+    .mail input, .pass input, .button-log input{
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+    .menu-left label, .menu-right label{
+        margin: 5px 0px;
+    }
+    .menu-left p{
+        margin: 10px 0px;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .button-log{
+        display: block;
+        margin: auto;
+        width: 70%;
+        background-color: rgb(7, 148, 7);
+        border-radius: 8px;
+    }
+    .button-log input{
+        display: block;
+        margin: auto;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    #i-email-02{
+        margin: 5px 0px;
     }
 }

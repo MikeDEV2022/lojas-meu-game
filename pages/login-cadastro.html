@@ -54,7 +54,7 @@
     <div class="menu-hambuguer" id="hamburguer" style="display: none;">
         <ul>
             <div class="top" id="top-back">
-                <li style="background-color: rgb(9, 241, 9);">MINHA CONTA</li>
+                <li style="background-color: rgb(9, 241, 9);"><a href="../pages/login-cadastro.html" target="_self" rel="prev">MINHA CONTA</a></li>
             </div>
             <div class="top">
                 <li>PLAYSTATION</li>
@@ -110,7 +110,10 @@
         <section class="login-sec">
             <form class="division-form" action="php.php" method="post">
                 <div class="menu-left">
-                    <h1>Já sou cadastrado</h1>
+                    <div class="top-info">
+                        <img src="../imagens/avatar.png" alt="avatar">
+                        <h1>Já sou cadastrado</h1>
+                    </div>
                     <div class="mail">
                         <label for="i-email">E-mail:</label>
                         <input type="email" name="email" id="i-email">
@@ -128,14 +131,15 @@
                 </div>
                 <div class="menu-right">
                     <div class="text-top">
+                        <img src="../imagens/avatar.png" alt="avatar">
                         <h1>Ainda não possuo cadastro</h1>
-                        <p>Primeiro acesso? <br> Faça aqui o seu cadastro</p>
+                        <p><strong>Primeiro acesso?</strong> <br> Faça aqui o seu cadastro</p>
                     </div>
                     <div class="mail">
                         <label for="i-email-02">Digite o email que deseja cadastrar:</label>
                         <input type="email" name="email" id="i-email-02">
                     </div>
-                    <div class="button-cadastrar">
+                    <div class="button-log">
                         <input type="submit" value="Cadastrar">
                     </div>
                 </div>
